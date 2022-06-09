@@ -1,0 +1,13 @@
+.inputGroup {
+    display: inline-block;
+    width: min(80%);
+}
+
+.inputGroup .error {
+    color: rgb(227, 101, 69);
+    font-size: small;
+}
+
+.inputGroup input {
+    width: min(100%);
+}

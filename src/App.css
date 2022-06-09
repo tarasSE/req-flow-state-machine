@@ -11,71 +11,9 @@
   width: min(100%);
 }
 
-.left {
-  width: clamp(200px, 400px, 30%);
-  background-color: antiquewhite;
-}
-
-.step {
-  text-transform: capitalize;
-  cursor: pointer;
-  padding: min(2%, 15px);
-  background-color: azure;
-}
-
-.step.active {
-  filter: brightness(85%); 
-  color:  blue; 
-}
-
-.step:hover {
-  filter: brightness(85%);  
-}
-
-.stepLabel {
-  display: inline-block;
-  text-transform: capitalize;
-  margin-left: max(3%, 15px);
-  padding: 2%;
-  border-radius: 7px;
-  color: azure;
-}
-
-.stepLabel.missed_info {
-  background-color: rgb(244, 192, 97);
-}
-.stepLabel.error {
-  background-color: rgb(244, 136, 97);
-}
-.stepLabel.completed {
-  background-color: rgb(5, 228, 225);
-}
-
-.stepNum {
-  font-weight: 800;
-  padding-left: max(3%, 15px);
-  padding-right: max(3%, 15px);
-}
-
 .right {
   background-color: bisque;
   flex: 1;
   background-color: whitesmoke;
   padding: 2%;
-
 }
-
-.inputGroup {
-  display: inline-block;
-  width: min(80%);
-}
-
-.inputGroup .error {
-  color: rgb(227, 101, 69);
-  font-size: small;
-}
-
-.inputGroup input{
-  width: min(100%);
-}
-
